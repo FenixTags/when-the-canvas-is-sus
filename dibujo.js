@@ -10,8 +10,8 @@ dibujarLinea(colorLinea, 299, 0, 299, 300); // Borde derecho
 dibujarLinea(colorLinea, 0, 299, 300, 299); // Borde inferior
 dibujarLinea(colorLinea, 1, 0, 1, 300); // Borde izquierdo
 
-dibujarCirculo("black", "red", 100, 120, 15, 0, 2*3.1416); // Circulo superior mochila
-dibujarCirculo("black", "red", 100, 150, 15, 0, 2*3.1416); // Circulo inferior mochila
+dibujarCirculo("black", "red", 100, 120, 15); // Circulo superior mochila
+dibujarCirculo("black", "red", 100, 150, 15); // Circulo inferior mochila
 // Relleno mochila
 for(l=0; l<30; l+=.5){
     yI = yF = l + 120;
@@ -38,8 +38,8 @@ for(l=0; l<20; l+=.5){
     dibujarLinea("red", 171, yI, 199, yF);
 }
 
-dibujarCirculo("black", "lightblue", 140, 110, 20, 2*3.1416, 0*3.1416); // Circulo completo izquierdo visor
-dibujarCirculo("black", "lightblue", 175, 110, 20, 2*3.1416, 0*3.1416); // Circulo completo derecho visor
+dibujarCirculo("black", "lightblue", 140, 110, 20); // Circulo completo izquierdo visor
+dibujarCirculo("black", "lightblue", 175, 110, 20); // Circulo completo derecho visor
 // Relleno visor
 for(l=0; l<40; l+=.5){
     yI = yF = l + 90;
